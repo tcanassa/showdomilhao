@@ -1,59 +1,45 @@
 ﻿body
 {
+    margin: 0;
+    padding: 0;
 }
 
+.Corpo
+{
+    height: 100%;
+    width: 100%;
+}
+    
+.Corpo img
+{
+    min-width: 100%;
+    min-height: 100%;
+ }
+
 .Logo
-{position:fixed; 
+{
+    position:fixed; 
     display:inline-block; 
-    left: 77px;
-    width: 526px; 
-    height: 161px;
+    left: 100px;
+    width: 35%; 
+    height: 20%;
     top: 18px;
     bottom: 313px;
 }
 
+.Logo img 
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
 .Caixa
-{position:relative; top:-886px; 
- background-color:Yellow;
-  display:block;
-    left: 27px;
-    width: 596px;
-    height: 432px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background: rgba(255, 191, 0, 0.6);
-    }
-
-.Questao
-{font-family:Verdana; font-size: 20px;
- position:static;
-    bottom: 326px;
-    left: 37px;
-    width: 532px;
-    margin-right: 0px;
-    margin-bottom: 50px;
-}
-
-.RadioButtonList1
-{position:absolute;
-    top: 98px;
-    left: 18px;
-    width: 515px;
-}
-
-.Botao
-{position:absolute;
-    top: 295px;
-    left: 20px;
-    width: 329px;
-    right: 247px;
-    height: 0px;
-}
-
-.Panel1
-{position:absolute;
-    bottom: 20px;
-    left: 18px;
-    width: 517px;
+{
+     position:absolute;
+     width:45%;
+     height:63%;
+     top: 200px;
+     left: 38px;
+     background: rgba(255,191,0,0.5);
 }
