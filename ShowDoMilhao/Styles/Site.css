@@ -18,7 +18,7 @@
 
 .Logo
 {
-    position:fixed; 
+    position:absolute; 
     display:inline-block; 
     left: 100px;
     width: 35%; 
@@ -42,40 +42,92 @@
      top: 200px;
      left: 38px;
      background: rgba(255,191,0,0.5);
+     border-radius: 10px;
+     color: rgba(51,51,51,1);
+		
 }
 
-.css3button 
+.Questao
 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
-	color: #000000;
-	padding: 10px 20px;
+    position:relative;
+    left:15px;
+    
+}
+   
+   
+.RadioButtonList1
+{
+    position:relative;
+    top:20px;
+    left:-20px
+}
+
+.Botao
+{ position:relative;
+    top:100px;
+    left:10px;    
+}
+
+.Panel1
+{
+    position:relative;
+    top:120px;
+    left:10px;
+    
+}
+
+input[type=submit] 
+{
+	color: rgba(51,51,51,1);
+	padding: 5px 13px;
 	background: -moz-linear-gradient(
 		top,
 		#ffbf00 0%,
-		#000000);
+		#a88809);
 	background: -webkit-gradient(
 		linear, left top, left bottom, 
 		from(#ffbf00),
-		to(#000000));
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
+		to(#a88809));
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
 	border: 1px solid #000000;
 	-moz-box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
+		0px 1px 1px rgba(000,000,000,0.5),
 		inset 0px 0px 1px rgba(255,255,255,0.6);
 	-webkit-box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
+		0px 1px 1px rgba(000,000,000,0.5),
 		inset 0px 0px 1px rgba(255,255,255,0.6);
 	box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
+		0px 1px 1px rgba(000,000,000,0.5),
 		inset 0px 0px 1px rgba(255,255,255,0.6);
 	text-shadow:
 		0px -1px 0px rgba(000,000,000,1),
 		0px 1px 0px rgba(255,255,255,0.2);
 }
 
+input[type=submit]:hover
+{
+    background: -moz-linear-gradient(
+		top,
+		#a88809 0%,
+		#ffbf00);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#a88809),
+		to(#ffbf00));    
+} 
 
+input[type=submit]:active
 
-
+{
+    background: -moz-linear-gradient(
+		top,
+		#a88809 0%,
+		#ffbf00);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#a88809),
+		to(#ffbf00));   
+		color: rgba(255,191,0,0.5);
+} 
