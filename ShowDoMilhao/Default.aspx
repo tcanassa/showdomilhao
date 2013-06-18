@@ -1,9 +1,10 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
+<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
     CodeBehind="Default.aspx.cs" Inherits="ShowDoMilhao._Default" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
     <script src="Scripts/jquery-2.0.2.js" type="text/javascript"></script>
     <link href="Styles/customradio.css" rel="stylesheet" type="text/css" />
+
  </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
@@ -40,7 +41,7 @@
                     <asp:Button ID="buttonResponder" runat="server" Text="Responder" 
                         onclick="onResponder" CssClass="css3button"/>
                    
-                </div>
+            </div>
     
             <div class="Panel1">
             <asp:Panel ID="Panel1" runat="server">

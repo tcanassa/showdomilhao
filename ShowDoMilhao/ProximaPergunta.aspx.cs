@@ -12,7 +12,7 @@ namespace ShowDoMilhao
         protected void Page_Load(object sender, EventArgs e)
         {
             GameState g = GameState.Instance;
-            valorProxPergunta.Text = g.valores[g.nivelAtual-1].Item2.ToString();
+            valorProxPergunta.Text = g.valores[g.nivelAtual - 1].Item2.ToString();
             valorGanhar.Text = g.valorAtual.ToString();
             valorPerder.Text = (g.valorAtual / 2).ToString();
         }

@@ -15,10 +15,10 @@
     min-width: 100%;
     min-height: 100%;
  }
-
+ 
 .Logo
 {
-    position:fixed; 
+    position:absolute; 
     display:inline-block; 
     left: 100px;
     width: 35%; 
@@ -37,45 +37,145 @@
 .Caixa
 {
      position:absolute;
-     width:45%;
-     height:63%;
-     top: 200px;
-     left: 38px;
+     width:650px;
+     height:420px;
+     margin:-30px 0 0 -50px; 
+     top: 36%;
+     left:6%;
      background: rgba(255,191,0,0.5);
+     border-radius: 10px;
+     color: rgba(51,51,51,1);
+		
 }
 
-.css3button 
+.Questao
 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
-	color: #000000;
-	padding: 10px 20px;
+    height:85px; 
+    left:10%; 
+    margin:-30px 0 0 -50px; 
+    position:absolute; 
+    top:10%; 
+    width:600px;   
+}   
+   
+.RadioButtonList1
+{
+    height:200px; 
+    left:5%; 
+    margin:-30px 0 0 -50px; 
+    position:absolute; 
+    top:28%; 
+    width:400px;   
+}
+
+.Botao
+{ 
+    height:200px; 
+    left:10%; 
+    margin:-30px 0 0 -50px; 
+    position:absolute; 
+    top:95%; 
+    width:200px;   
+}
+
+.BotaoProximaPergunta
+{ 
+    height:100px; 
+    left:10%; 
+    margin:-30px 0 0 -50px; 
+    position:absolute; 
+    top:89%; 
+    width:180px;  
+    text-align:center; 
+}
+
+.Panel1
+{
+    height:150px; 
+    left:10%; 
+    margin:-30px 0 0 -50px; 
+    position:absolute; 
+    top:73%; 
+    width:200px;
+    
+}
+
+input[type=submit] 
+{
+	color: rgba(51,51,51,1);
+	cursor:pointer;
+	padding: 5px 13px;
 	background: -moz-linear-gradient(
 		top,
 		#ffbf00 0%,
-		#000000);
+		#a88809);
 	background: -webkit-gradient(
 		linear, left top, left bottom, 
 		from(#ffbf00),
-		to(#000000));
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
+		to(#a88809));
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
 	border: 1px solid #000000;
 	-moz-box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
+		0px 1px 1px rgba(000,000,000,0.5),
 		inset 0px 0px 1px rgba(255,255,255,0.6);
 	-webkit-box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
+		0px 1px 1px rgba(000,000,000,0.5),
 		inset 0px 0px 1px rgba(255,255,255,0.6);
 	box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
+		0px 1px 1px rgba(000,000,000,0.5),
 		inset 0px 0px 1px rgba(255,255,255,0.6);
 	text-shadow:
 		0px -1px 0px rgba(000,000,000,1),
 		0px 1px 0px rgba(255,255,255,0.2);
 }
 
+input[type=submit]:hover
+{
+    background: -moz-linear-gradient(
+		top,
+		#a88809 0%,
+		#ffbf00);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#a88809),
+		to(#ffbf00));    
+} 
 
+input[type=submit]:active
+{
+    background: -moz-linear-gradient(
+		top,
+		#a88809 0%,
+		#ffbf00);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#a88809),
+		to(#ffbf00));   
+		color: rgba(255,191,0,0.5);
+} 
 
+.Valores
+{
+    height:200px; 
+    left:30%; 
+    margin:-240px 100px 0 -150px; 
+    position:absolute; 
+    top:80%; 
+    width:550px;
+    font-size: 25px;
+    text-align:center;
+}
 
+.CertaResposta
+{
+    position:absolute;
+     width:600px;
+     height:100px;
+     margin:-300px 0 0 -50px; 
+     top: 10%;
+     left:50%;
+     font-size:35px;
+     text-align:center;
+}

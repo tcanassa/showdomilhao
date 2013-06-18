@@ -1,29 +1,34 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ProximaPergunta.aspx.cs" Inherits="ShowDoMilhao.ProximaPergunta" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProximaPergunta.aspx.cs" Inherits="ShowDoMilhao.ProximaPergunta" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <div class="Corpo">
+           <img src="Images/silvio_certa_resposta.jpeg" />
+    </div>
+    
+    <div class="CertaResposta">
+            CERTA RESPOSTA!!!
+    </div>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    Resposta correta!
+ <h3>
+    <div class="Caixa">    
+            <div class="Valores">
+            A próxima pergunta valerá: <asp:Label runat="server" ID="valorProxPergunta"></asp:Label>,00
+            <br />
+            Se parar agora, ganhará: R$ <asp:Label runat="server" ID="valorGanhar"></asp:Label>,00
+            <br />
+            Se continuar e errar, ganhará: R$ <asp:Label runat="server" ID="valorPerder"></asp:Label>,00
+            <br />            
+            </div>
+
+            <div class="BotaoProximaPergunta">
+                Deseja continuar?
+                <br />
+                <asp:Button ID="parar" runat="server" Text="Parar" onclick="parar_Click" />
+                <asp:Button ID="continuar" runat="server" Text="Continuar" 
+                    onclick="continuar_Click" />
+            </div>        
     </div>
-    <div>
-    A próxima pergunta valerá <asp:Label runat="server" ID="valorProxPergunta"></asp:Label>,00
-    <br />
-    Se parar agora, ganhará R$ <asp:Label runat="server" ID="valorGanhar"></asp:Label>,00
-    <br />
-    Se continuar e errar, ganhará R$ <asp:Label runat="server" ID="valorPerder"></asp:Label>,00
-    <br />
-    Deseja continuar?
-    </div>
-        <asp:Button ID="parar" runat="server" Text="parar" onclick="parar_Click" />
-        <asp:Button ID="continuar" runat="server" Text="continuar" 
-            onclick="continuar_Click" />
-    </div>
-    </form>
-</body>
-</html>
+ </h3>
+</asp:Content>

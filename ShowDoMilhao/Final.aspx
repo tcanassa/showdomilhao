@@ -25,7 +25,7 @@
                 <asp:BoundField DataField="nome" HeaderText="nome" SortExpression="nome" />
                 <asp:BoundField DataField="data" HeaderText="data" SortExpression="data" />
                 <asp:BoundField DataField="valor" HeaderText="valor" 
-                    SortExpression="valor" />
+                    SortExpression="valor" DataFormatString="{0:c}" />
             </Columns>
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
