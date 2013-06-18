@@ -15,7 +15,7 @@
     min-width: 100%;
     min-height: 100%;
  }
-
+ 
 .Logo
 {
     position:absolute; 
@@ -37,10 +37,11 @@
 .Caixa
 {
      position:absolute;
-     width:45%;
-     height:63%;
-     top: 200px;
-     left: 38px;
+     width:650px;
+     height:420px;
+     margin:-30px 0 0 -50px; 
+     top: 36%;
+     left:6%;
      background: rgba(255,191,0,0.5);
      border-radius: 10px;
      color: rgba(51,51,51,1);
@@ -49,36 +50,60 @@
 
 .Questao
 {
-    position:relative;
-    left:15px;
-    
-}
-   
+    height:85px; 
+    left:10%; 
+    margin:-30px 0 0 -50px; 
+    position:absolute; 
+    top:10%; 
+    width:600px;   
+}   
    
 .RadioButtonList1
 {
-    position:relative;
-    top:20px;
-    left:-20px
+    height:200px; 
+    left:5%; 
+    margin:-30px 0 0 -50px; 
+    position:absolute; 
+    top:28%; 
+    width:400px;   
 }
 
 .Botao
-{ position:relative;
-    top:100px;
-    left:10px;    
+{ 
+    height:200px; 
+    left:10%; 
+    margin:-30px 0 0 -50px; 
+    position:absolute; 
+    top:95%; 
+    width:200px;   
+}
+
+.BotaoProximaPergunta
+{ 
+    height:100px; 
+    left:10%; 
+    margin:-30px 0 0 -50px; 
+    position:absolute; 
+    top:89%; 
+    width:180px;  
+    text-align:center; 
 }
 
 .Panel1
 {
-    position:relative;
-    top:120px;
-    left:10px;
+    height:150px; 
+    left:10%; 
+    margin:-30px 0 0 -50px; 
+    position:absolute; 
+    top:73%; 
+    width:200px;
     
 }
 
 input[type=submit] 
 {
 	color: rgba(51,51,51,1);
+	cursor:pointer;
 	padding: 5px 13px;
 	background: -moz-linear-gradient(
 		top,
@@ -119,7 +144,6 @@ input[type=submit]:hover
 } 
 
 input[type=submit]:active
-
 {
     background: -moz-linear-gradient(
 		top,
@@ -131,3 +155,27 @@ input[type=submit]:active
 		to(#ffbf00));   
 		color: rgba(255,191,0,0.5);
 } 
+
+.Valores
+{
+    height:200px; 
+    left:30%; 
+    margin:-240px 100px 0 -150px; 
+    position:absolute; 
+    top:80%; 
+    width:550px;
+    font-size: 25px;
+    text-align:center;
+}
+
+.CertaResposta
+{
+    position:absolute;
+     width:600px;
+     height:100px;
+     margin:-300px 0 0 -50px; 
+     top: 10%;
+     left:50%;
+     font-size:35px;
+     text-align:center;
+}
