@@ -65,12 +65,12 @@
     margin:-30px 0 0 -50px; 
     position:absolute; 
     top:28%; 
-    width:400px;   
+    width:600px;   
 }
 
 .Botao
 { 
-    height:200px; 
+    height:80px; 
     left:10%; 
     margin:-30px 0 0 -50px; 
     position:absolute; 
@@ -84,15 +84,15 @@
     left:10%; 
     margin:-30px 0 0 -50px; 
     position:absolute; 
-    top:89%; 
+    top:89.5%; 
     width:180px;  
     text-align:center; 
 }
 
 .Panel1
 {
-    height:150px; 
-    left:10%; 
+    height:80px; 
+    left:11%; 
     margin:-30px 0 0 -50px; 
     position:absolute; 
     top:73%; 
@@ -162,20 +162,21 @@ input[type=submit]:active
     left:30%; 
     margin:-240px 100px 0 -150px; 
     position:absolute; 
-    top:80%; 
+    top:70%; 
     width:550px;
-    font-size: 25px;
+    font-size: 24px;
     text-align:center;
 }
 
 .CertaResposta
 {
     position:absolute;
-     width:600px;
+     width:500px;
      height:100px;
-     margin:-300px 0 0 -50px; 
-     top: 10%;
-     left:50%;
-     font-size:35px;
+     margin:-50x 0 0 -50px; 
+     top: 12%;
+     left:30%;
+     font-size:50px;
      text-align:center;
+     color:White;
 }

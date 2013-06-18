@@ -14,11 +14,14 @@
  <h3>
     <div class="Caixa">    
             <div class="Valores">
-            A próxima pergunta valerá: <asp:Label runat="server" ID="valorProxPergunta"></asp:Label>,00
+            A próxima pergunta valerá: R$ <asp:Label runat="server" ID="valorProxPergunta"></asp:Label>,00
+            <br />
             <br />
             Se parar agora, ganhará: R$ <asp:Label runat="server" ID="valorGanhar"></asp:Label>,00
             <br />
+            <br />
             Se continuar e errar, ganhará: R$ <asp:Label runat="server" ID="valorPerder"></asp:Label>,00
+            <br />
             <br />            
             </div>
 
