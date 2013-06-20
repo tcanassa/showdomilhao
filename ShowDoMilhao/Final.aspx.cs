@@ -18,13 +18,16 @@ namespace ShowDoMilhao
             labelRespostaCerta.Text = g.questaoAtual.respostaCorreta;
             if (g.errouPergunta)
             {
-                respostaCorreta.Visible = true;
-                errouLabel.Visible = true;
+                Ganhou.Visible = false;
+                //respostaCorreta.Visible = true;
+                //errouLabel.Visible = true;
+                //Perdeu.Visible = true;  
             }
             else
-            {
+            {                
                 respostaCorreta.Visible = false;
                 errouLabel.Visible = false;
+                Perdeu.Visible = false;
             }
         }
 

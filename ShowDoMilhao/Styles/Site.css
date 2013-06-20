@@ -153,7 +153,7 @@ input[type=submit]:active
 		linear, left top, left bottom, 
 		from(#a88809),
 		to(#ffbf00));   
-		color: rgba(255,191,0,0.5);
+	color: rgba(255,191,0,0.5);
 } 
 
 .Valores
@@ -171,12 +171,98 @@ input[type=submit]:active
 .CertaResposta
 {
     position:absolute;
-     width:500px;
-     height:100px;
-     margin:-50x 0 0 -50px; 
-     top: 12%;
-     left:30%;
-     font-size:50px;
-     text-align:center;
-     color:White;
+    width:500px;
+    height:100px;
+    margin:-50x 0 0 -50px; 
+    top: 12%;
+    left:30%;
+    font-size:50px;
+    text-align:center;
+    color:White;
+}
+
+.PerguntaResposta
+{
+    color:Blue;
+}
+
+.Final
+{
+    position:absolute;
+    width:800px;
+    height:200px;
+    margin:-200x 0 0 -90px; 
+    top: 2%;
+    left:20%;
+    font-size:20px;
+    text-align:center;
+    color:Red; 
+}
+
+#FimDeJogo
+{
+    font-size:50px;
+    font-weight:bold;
+}
+
+.CaixaRank
+{
+    position:absolute;
+    width:800px;
+    height:420px;
+    margin:-400px 0 0 -210px; 
+    top:95%;
+    left:35%;
+    background: rgba(255,191,0,0.3);
+    border-radius: 10px;
+    color: rgba(51,51,51,1);
+}
+
+.Tabela
+{
+    position:absolute;
+    width:750px;
+    height:310px;
+    margin:-180px 0 0 -155px; 
+    top: 52%;
+    left:22.5%;
+    background: rgba(255,191,0,0.5);
+    border-radius: 2px;
+    overflow:auto; 
+}
+
+.TabelaRank 
+{
+    border-collapse:collapse; 
+    border:2px solid #000000;
+    color: rgba(51,51,51,1); 
+    padding:5px; 
+    width:750px; 
+    height:100px;     
+    text-align:center;
+    font-size:17px;
+}
+
+.BotaoRecomeçar
+{
+    height:30px; 
+    left:45%; 
+    margin:-30px 0 0 -50px; 
+    position:absolute; 
+    top:98%; 
+    width:180px;  
+    text-align:center; 
+}
+
+.InsiraNome
+{
+    position:absolute; 
+    height:30px; 
+    left:10%; 
+    margin:-30px 0 0 -50px; 
+    top:8%; 
+    width:500px; 
+    font-size:17px;
+    color:Black; 
+    font-weight:bold;
 }

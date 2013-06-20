@@ -2,15 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-
     <div class="Corpo">
            <img src="Images/silvio_certa_resposta.jpeg" />
     </div>
-    
     <div class="CertaResposta">
             CERTA RESPOSTA!!!
     </div>
-
  <h3>
     <div class="Caixa">    
             <div class="Valores">
@@ -24,7 +21,6 @@
             <br />
             <br />            
             </div>
-
             <div class="BotaoProximaPergunta">
                 Deseja continuar?
                 <br />
